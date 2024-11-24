@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAR Moving and Delivery</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: #0056b3;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: #e9f1ff;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .button {
+            padding: 0.75rem 1.5rem;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .hero .button:hover {
+            background: #0056b3;
+        }
+
+        /* Services Section */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        .card {
+            background: white;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin: 0 0 0.5rem 0;
+        }
+
+        .card p {
+            margin: 0.5rem 0;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background: #0056b3;
+        }
+
+        /* Contact Section */
+        form {
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin: 1rem 0 0.5rem 0;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 0.75rem;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>ASAR Moving and Delivery</h1>
+        <p>Your trusted partner for stress-free moving!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Moving Made Easy</h2>
+        <p>Reliable, professional, and affordable moving services tailored to your needs.</p>
+        <a href="#contact" class="button">Get a Free Quote</a>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services" class="container">
+        <h2>Our Services</h2>
+        <div class="card">
+            <h3>Studio or 1-Bedroom Apartment</h3>
+            <p><strong>2 Movers + 1 Truck</strong></p>
+            <p>Rate: $105/hour (3-hour minimum)</p>
+            <a href="https://www.asar-moving.com/studio" class="button" target="_blank">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>2-Bedroom Apartment</h3>
+            <p><strong>3 Movers + 1 Truck</strong></p>
+            <p>Rate: $140/hour (3-hour minimum)</p>
+            <a href="https://www.asar-moving.com/2-bedroom" class="button" target="_blank">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>3+ Bedroom Home</h3>
+            <p><strong>4 Movers + 1 Truck</strong></p>
+            <p>Rate: $175/hour (3-hour minimum)</p>
+            <a href="https://www.asar-moving.com/3-bedroom" class="button" target="_blank">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form action="mailto:asarmoving@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ASAR Moving and Delivery</p>
+        <p>USDOT: 3740305 | CA: 597313 | MTR: 0192522</p>
+        <p><a href="https://www.asar-moving.com">www.asar-moving.com</a></p>
+    </footer>
+
+</body>
+</html>
