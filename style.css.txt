@@ -1,0 +1,13 @@
+/* Hero Section with New Background */
+.hero {
+    position: relative;
+    background: url('images/moving-truck.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* Other styles remain the same */
