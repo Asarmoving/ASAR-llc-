@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio or 1-Bedroom Apartment</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Studio or 1-Bedroom Apartment</h1>
+    </header>
+    <main>
+        <h2>Service Details</h2>
+        <p>We provide 2 movers and 1 truck for studio or 1-bedroom apartments.</p>
+        <p><strong>Rate:</strong> $105/hour (3-hour minimum).</p>
+        <p>Our team will wrap, load, and unload all furniture and ensure safe delivery to your destination.</p>
+    </main>
+    <footer>
+        <p><a href="index.html">Go Back to Home</a></p>
+    </footer>
+</body>
+</html>
