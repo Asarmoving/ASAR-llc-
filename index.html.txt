@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zhanna Relocation - Professional and reliable moving services.">
+    <title>Zhanna Relocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="overlay">
+            <div class="container">
+                <img src="images/logo.png" alt="Zhanna Relocation Logo" class="logo">
+                <h1>Zhanna Relocation</h1>
+                <p>Effortless, professional, and reliable moving services tailored for you.</p>
+                <a href="#services" class="btn-primary">Explore Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Zhanna Relocation, we pride ourselves on delivering top-notch moving services that exceed customer expectations. Whether you're moving locally or long-distance, our team is here to make your move stress-free and efficient.</p>
+            <p>Our experienced professionals handle your belongings with care and ensure timely delivery, offering peace of mind every step of the way.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="images/moving-truck.jpg" alt="Residential Moves">
+                    <h3>Residential Moves</h3>
+                    <p>Seamless moving solutions for your home, from small apartments to large houses.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://source.unsplash.com/300x200/?office,moving" alt="Commercial Moves">
+                    <h3>Commercial Moves</h3>
+                    <p>Specialized relocation services for offices and businesses of all sizes.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://source.unsplash.com/300x200/?packing,boxes" alt="Packing Services">
+                    <h3>Packing Services</h3>
+                    <p>Professional packing services to keep your belongings safe and secure.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://source.unsplash.com/300x200/?storage,warehouse" alt="Storage Solutions">
+                    <h3>Storage Solutions</h3>
+                    <p>Safe and accessible storage options tailored to your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="mailto:zhannarelocation@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zhanna Relocation</p>
+            <p>Email: <a href="mailto:zhannarelocation@gmail.com">zhannarelocation@gmail.com</a> | Phone: (213) 123-4567</p>
+        </div>
+    </footer>
+</body>
+</html>
